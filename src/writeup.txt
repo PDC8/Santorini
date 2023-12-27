@@ -1,0 +1,9 @@
+Write-up:
+
+The player class is an example of the template design pattern. The Player superclass acted as a skeleton for RandomPlayer, HeuristicPlayer, and HumanPlayer. All three subclasses implemented the select_move_direction function, but only HumanPlayer overrode the functionality for select_build_direction. We also needed to add a specific function to the HeuristicPlayer for calculating the best possible move_score. 
+
+The memento design pattern was utilized to implement the undo/redo/next option. We started by using the example code. Compared to the starter code, however, we never wanted to remove mementos unless we used undo and then took a new turn. Because of this, we created a current_index variable to traverse the mementos list, decrementing and incrementing according to undo and redo, respectively. 
+
+The PlayerFactory class is an example of the factory method pattern. We wanted to define this separate class to encapsulate the logic for creating different types of player objects. The create_player method in the PlayerFactory class acts as the factory method. In this way, we were able to abstract the instantiation logic from the client code, which just calls the factory method to obtain player instances. 
+
+Lastly, the player_iterator class is an attempt at the iterator pattern. Upon further observation, we realized that we could also abstract how we were alternating between the two players. However, we weren’t able to get it to work. 
