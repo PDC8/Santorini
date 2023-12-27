@@ -1,2 +1,0 @@
-This assignment turned out to be much harder than I anticipated. It took us a long time to figure out the organization of the board game and how each class would interact with each other. It was nice to finally put all the knowledge that we learned throughout the semester into practice. I usually work on programming projects by myself, but I learned how to communicate efficiently with my partner so that we were on the same page. I also feel that I have a better understanding of some of the design patterns that we utilized.
-
