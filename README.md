@@ -1,5 +1,5 @@
 # Santorini
-## CPSC 327 Pset6 - Santorini Board Game
+## CPSC 327 Final Project - Santorini Board Game
 ### By Charles Sun and Peidong Chen
 
 This project is a recreation of the **Santorini** board game, where you can play against human players, random opponents, or heuristic-based AI.
